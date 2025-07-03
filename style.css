@@ -1,0 +1,75 @@
+html {
+    background: #6c8fab;
+    height: 100%;
+}
+
+h1 {
+    font-size: 50px;
+}
+h2 {
+    font-size: 60px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+body {
+  height: 100%;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("media/Love-and-Pop-1.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  color: transparent;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  margin-right: 24px;
+  margin-left: 24px;
+}
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 16px;
+  left: 24px;
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 16px;
+  left: 24px;
+}
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 16px;
+  right: 24px;
+}
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 16px;
+  right: 24px;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
